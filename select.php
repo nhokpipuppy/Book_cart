@@ -63,8 +63,23 @@ $link=new mysqli('localhost','root','','book')or die('kết nối thất bại')
             </tr>
         </table>
     </form>
-<?php 
 
+<?php 
+if(isset($_POST'buy_more')){
+    header('location:index.php');
+}
+if(isset($_POST['update'])&& count($select)>0){
+    foreach($_POST as $key => $sl){
+        $a=explode('_',$key);
+        if($sl==0){
+            unset($_SESSION['select'][a[1]]);
+        }elseif($sl>0 && is_numeric($sl)){
+            $_SESSION['select'][a[1]]=$sl;
+        }
+        header('location:select.php');
+    }
+}
 ?>
+
 </body>
 </html>
