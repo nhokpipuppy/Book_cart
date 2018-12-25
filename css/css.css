@@ -1,0 +1,46 @@
+*{}
+*{
+    margin         : 0;
+    padding        : 0;
+}
+
+.container {
+    width: 500px;
+    background: #626762;
+    color: white;
+    margin: auto;
+    padding: 20px 10px;
+    border-bottom: 1px solid red;
+}
+
+.book_name {
+    font-size: 32px;
+    font-weight: bold;
+    color: lightcoral;
+}
+
+.author {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.price {
+}
+
+.buy {
+    font-size: 18px;
+}
+
+.ok {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
