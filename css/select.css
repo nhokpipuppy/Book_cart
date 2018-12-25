@@ -1,0 +1,34 @@
+*{}
+*{
+    margin         : 0;
+    padding        : 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    background: lightblue;
+}
+
+tr.title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+tr {
+}
+
+td {
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: red;
+}
