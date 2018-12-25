@@ -14,8 +14,8 @@ if (mysqli_num_rows($result)>0){
         $_SESSION['select'][$a]=1;
     }
     //mở trang giỏ hàng
-        // header('location:select.php');
-        echo "success";
+        header('location:select.php');
+      
 }else{
     header('location:index.php');
 }
